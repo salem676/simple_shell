@@ -1,0 +1,40 @@
+.TH shell 1 "April 4, 2022" "Holberton School 0x16 - C" "shell man page"
+
+.SH NAME
+
+.B hsh \- a custom command language interpreter
+
+.SH SYNOPSIS
+
+.B ./hsh [command_file] [argument...]
+
+.SH DESCRIPTION
+
+The hsh utilitiy is a command language interpreter that executes commands read from a command line string, the standard input, or a specified file.
+
+.SH OPTIONS
+
+.SH OPERANDS
+
+.SH STDIN
+
+.SH INPUT FILES
+
+.SH ENVIRONMENT VARIABLES
+
+.BR PWD
+This variable represents an absolute pathname of the current working directory.
+
+.SH STDOUT
+
+.SH STDERR
+
+.SH OUTPUT FILES
+
+.SH EXTENDED DESCRIPTION
+
+.SH EXIT STATUS
+
+.SH APPLICATION USAGE
+
+The standard input and the standard error are the files that determine whether a shell is interactive when \fB-i\fR is not specified. For example:
