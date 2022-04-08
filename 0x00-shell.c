@@ -60,7 +60,17 @@ char **split_line(char *line, char *delim)
 	return (tokenArr);
 }
 
-int main(int __attribute__((unused))argc, char __attribute__((unused))**argv, char const __attribute__((unused))**envp)
+
+/**
+ * main - Runs a simple UNIX-like command interpreter.
+ *
+ * @argc: The number of arguments.
+ * @argv: A double pointer to the array of arguments passed to the function.
+ * @env: The array of strings from the environment.
+ *
+ * Return: always 0.
+ */
+int main(int __attribute__((unused))argc, char __attribute__((unused))**argv, char const __attribute__((unused))**env)
 {
 	char *line = NULL;
 	size_t bufsize = 0;
