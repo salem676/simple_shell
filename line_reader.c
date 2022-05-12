@@ -21,7 +21,7 @@ int main(void)
 	{
 		printf("$ ");
 		getline(&buffer, &len, stdin);
-		prinf("%s", buffer);
+		printf("%s", buffer);
 	}
 	return (0);
 }
