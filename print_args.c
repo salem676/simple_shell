@@ -10,7 +10,7 @@
  * @av: argument 2.
  * Return: 0.
  */
-int main(int ac, char **av)
+int main(int ac __attribute__((unused)), char **av)
 {
 	int i = 0;
 	/*
